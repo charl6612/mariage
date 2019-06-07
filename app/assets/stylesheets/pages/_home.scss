@@ -1,1 +1,22 @@
 // Specific CSS for your home-page
+.card-img-bottom {
+  height: 180px;
+  width: 100%;
+  background-size: cover;
+  background-position: bottom;
+  padding: 150px 0;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), asset-url('doucemont.jpeg');
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card{
+  border: 0;
+  .card-text-bloc{
+    margin-left: auto;
+    padding:  0 20% 0 20%;
+    text-align: center;
+    h1 {
+      font-weight: bold
+    }
+  }
+}
