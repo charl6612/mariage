@@ -1,0 +1,15 @@
+current directory: /home/charles/code/charl6612/mariage/vendor/bundle/ruby/2.5.0/gems/bindex-0.7.0/ext/skiptrace
+/home/charles/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20190704-734-1pdxxn2.rb extconf.rb
+creating Makefile
+
+current directory: /home/charles/code/charl6612/mariage/vendor/bundle/ruby/2.5.0/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /home/charles/code/charl6612/mariage/vendor/bundle/ruby/2.5.0/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/cruby.so
+
+current directory: /home/charles/code/charl6612/mariage/vendor/bundle/ruby/2.5.0/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20190704-734-1lr9t85/skiptrace

@@ -2,12 +2,12 @@ source 'https://rubygems.org'
 ruby '2.5.3'
 
 gem 'bootsnap', require: false
-gem 'devise'
 gem 'jbuilder', '~> 2.0'
 gem 'pg', '~> 0.21'
 gem 'puma'
 gem 'rails', '5.2.3'
 gem 'redis'
+gem 'pundit'
 
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.6.1'
@@ -15,8 +15,15 @@ gem 'sassc-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
-
-gem 'bootstrap', '~> 4.3.1'
+gem 'faker'
+gem 'cloudinary', '~> 1.9.1'
+gem 'carrierwave', '~> 1.2'
+gem 'devise'
+gem 'mapbox-gl-rails'
+gem 'geocoder'
+gem 'typed', '~> 0.3.0'
+gem "algoliasearch-rails"
+gem 'gmaps4rails'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
